@@ -1,13 +1,13 @@
 {
   "openBrowser": true,
-  "defaultPort": 2122,
+  "defaultPort": 2120,
   "tasks": {
     "copyDatedFolder": {
       "type" : "copyDatedFolderTaskConfig",
       "remark": "Use trailing slashes after the folder names. Use forward slashes even on Windows",
       "sourceFolder": "/atti/imago_mundi_import/atti android import nexus 6p/",
       "destinationFolder": "/atti/imago_mundi_import/atti android import nexus 6p sorted/",
-      "destinationFolderSuffix": "n6p"
+      "destinationFolderSuffix": " @n6p"
     }
   }
 }
