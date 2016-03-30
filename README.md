@@ -15,8 +15,8 @@ Our project offers some batch manipulation tasks which hopefully make your life 
  * This task can be used if you just downloaded a lot of images from your camera by directly accessing the storage (mounting as a drive, or reading the SD/CF card using a card reader. This way all your files will be in folders like 100CANON, 101CANON, etc. if you own a Canon camera)
 
 ##Building instructions
-###Check out the project components:
-	Check out the components in the same directory using the below commands:
+###Clone the project components:
+	Clone the components in the same directory using the below commands:
 
     git clone https://github.com/egyedia/photo-chaos-organizer-server.git
     git clone https://github.com/egyedia/photo-chaos-organizer-client.git
@@ -37,9 +37,9 @@ Our project offers some batch manipulation tasks which hopefully make your life 
 
 Or just run the platform-specific shell scripts:
 
-    start-pco.sh for *nix
-    start-pco.command for OS X
-    start-pco.cmd for Windows
+* start-pco.sh for *nix
+* start-pco.command for OS X
+* start-pco.cmd for Windows
 
 You probably need to make the file executable first:
 
@@ -47,10 +47,10 @@ You probably need to make the file executable first:
 
 ###Access it from a browser
 
-	When you run the application, it will automatically launch your default browser.
+When you run the application, it will automatically launch your default browser.
 
-	If you wish to disable this behaviour, please edit the configuration file, _pco.config.json_ and set the "openBrowser" property to _false_
+If you wish to disable this behaviour, please edit the configuration file, _pco.config.json_ and set the "openBrowser" property to _false_
 
-	Then, you can open the application in the preferred browser, by visiting:
+Then, you can open the application in the preferred browser, by visiting:
 
 http://localhost:2120
