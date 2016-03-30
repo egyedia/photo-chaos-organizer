@@ -8,11 +8,11 @@ Given the fact that cameras, camcoders, smartphones, and possibly other devices 
 
 Our project offers some batch manipulation tasks which hopefully make your life easier:
 * Move all raw files in separate directories
-** This task is useful if you just downloaded your images from your camera with the provided software, and the jpg and raw files (i.e. *.cr2 for Canon) are mixed
+ * This task is useful if you just downloaded your images from your camera with the provided software, and the jpg and raw files (i.e. *.cr2 for Canon) are mixed
 * Sort the files in separate folders based on the day they were taken (the date is extracted from filename)
-** This task can be used if you just downloaded a lot of images from your Android phone, and want to store them in separate folders
+ * This task can be used if you just downloaded a lot of images from your Android phone, and want to store them in separate folders
 * Sort the files in separate folders based on the day they were taken (the date is extracted from image metadata)
-** This task can be used if you just downloaded a lot of images from your camera by directly accessing the storage (mounting as a drive, or reading the SD/CF card using a card reader. This way all your files will be in folders like 100CANON, 101CANON, etc. if you own a Canon camera)
+ * This task can be used if you just downloaded a lot of images from your camera by directly accessing the storage (mounting as a drive, or reading the SD/CF card using a card reader. This way all your files will be in folders like 100CANON, 101CANON, etc. if you own a Canon camera)
 
 ##Building instructions
 ###Check out the project components:
