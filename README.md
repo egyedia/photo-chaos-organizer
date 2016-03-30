@@ -37,9 +37,9 @@ Our project offers some batch manipulation tasks which hopefully make your life 
 
 Or just run the platform-specific shell scripts:
 
-* start-pco.sh for *nix
-* start-pco.command for OS X
-* start-pco.cmd for Windows
+* **start-pco.sh** for *nix
+* **start-pco.command** for OS X
+* **start-pco.cmd** for Windows
 
 You probably need to make the file executable first:
 
@@ -49,8 +49,10 @@ You probably need to make the file executable first:
 
 When you run the application, it will automatically launch your default browser.
 
-If you wish to disable this behaviour, please edit the configuration file, _pco.config.json_ and set the "openBrowser" property to _false_
+If you wish to disable this behaviour, please edit the configuration file, `pco.config.json` and set the `"openBrowser"` property to `false`
 
 Then, you can open the application in the preferred browser, by visiting:
 
-http://localhost:2120
+[http://localhost:2120](http://localhost:2120)
+
+If this port is occupied on your system, the application will try to look for consecutive opened ports. If it is unable to find one, you can also set the port in the `pco.config.json` file, by modifying the `"defaultPort"` value.
