@@ -7,9 +7,9 @@ Photo Chaos Organizer is a small utility which tries to help you organize your p
 Given the fact that cameras, camcoders, smartphones, and possibly other devices generate a huge amount of photos, it is pretty hard to keep them all organized.
 
 Our project offers some batch manipulation tasks which hopefully make your life easier:
-*Move all raw files in separat directories
-*Sort the files in separate folders based on the day they were taken (date extracted from filename)
-*Sort the files in separate folders based on the day they were taken (date extracted from image metadata)
+* Move all raw files in separat directories
+* Sort the files in separate folders based on the day they were taken (date extracted from filename)
+* Sort the files in separate folders based on the day they were taken (date extracted from image metadata)
 
 Main build project for Photo Chaos Organizer
 
