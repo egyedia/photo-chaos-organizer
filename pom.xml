@@ -45,7 +45,7 @@
             <descriptor>src/assembly/bin.xml</descriptor>
           </descriptors>
           <appendAssemblyId>false</appendAssemblyId>
-          <finalName>dubylon-photo-chaos-organizer-${project.version}</finalName>
+          <finalName>photo-chaos-organizer-${project.version}</finalName>
           <appendAssemblyId>false</appendAssemblyId>
           <workDirectory>${project.build.directory}/assembly/work</workDirectory>
           <outputDirectory>${assembly.targetDir}</outputDirectory>

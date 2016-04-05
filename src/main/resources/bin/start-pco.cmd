@@ -1,8 +1,8 @@
 cls
 @echo ---------------------------------------------
-@echo Launching Photo Chaos Organizer from Dubylon
+@echo Launching Photo Chaos Organizer 0.1.2
 @echo ---------------------------------------------
 @echo off
 set DIRNAME=%~dp0
 
-java -jar "%DIRNAME%/dubylon-photo-chaos-organizer-0.1.1.jar"
+java -jar "%DIRNAME%/dubylon-photo-chaos-organizer-0.1.2.jar"

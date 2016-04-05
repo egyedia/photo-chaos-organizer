@@ -33,7 +33,7 @@ Our project offers some batch manipulation tasks which hopefully make your life 
 ###Run the project
 
     cd photo-chaos-organizer-project
-    java -jar dist/dubylon-photo-chaos-organizer-0.1.0.jar
+    java -jar dist/dubylon-photo-chaos-organizer-0.1.2.jar
 
 Or just run the platform-specific shell scripts:
 
