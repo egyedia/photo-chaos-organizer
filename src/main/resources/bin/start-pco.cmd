@@ -5,4 +5,4 @@ cls
 @echo off
 set DIRNAME=%~dp0
 
-java -jar "%DIRNAME%/dubylon-photo-chaos-organizer-0.1.2.jar"
+java -jar "%DIRNAME%/photo-chaos-organizer-0.1.2.jar"
