@@ -1,4 +1,24 @@
 {
   "openBrowser": true,
-  "defaultPort": 2120
+  "defaultPort": 2120,
+  "video": {
+    "players": {
+      "MPlayer": {
+        "executable": "/Applications/MPlayer OSX Extended.app/Contents/Resources/Binaries/mpextended.mpBinaries/Contents/MacOS/mplayer",
+        "arguments": [
+          "-slave",
+          "-quiet",
+          "${videoFile}"
+        ]
+      },
+      "VLC": {
+        "executable": "/Applications/VLC 2.1.0.app/Contents/MacOS/VLC",
+        "arguments": [
+          "--intf macosx",
+          "${videoFile}"
+        ]
+      }
+    },
+    "defaultPlayer": "MPlayer"
+  }
 }

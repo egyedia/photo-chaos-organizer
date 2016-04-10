@@ -1,8 +1,8 @@
 cls
 @echo ---------------------------------------------
-@echo Launching Photo Chaos Organizer 0.1.3-SNAPSHOT
+@echo Launching Photo Chaos Organizer 0.1.3
 @echo ---------------------------------------------
 @echo off
 set DIRNAME=%~dp0
 
-java -jar "%DIRNAME%/photo-chaos-organizer-0.1.3-SNAPSHOT.jar"
+java -jar "%DIRNAME%/photo-chaos-organizer-0.1.3.jar"
