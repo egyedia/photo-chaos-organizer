@@ -1,9 +1,9 @@
 #!/bin/sh
 clear
-echo ---------------------------------------------
-echo Launching Photo Chaos Organizer 0.1.4
-echo ---------------------------------------------
+echo ----------------------------------------------
+echo Launching Photo Chaos Organizer 0.1.5-SNAPSHOT
+echo ----------------------------------------------
 echo
 DIRNAME=`dirname "$0"`
 
-java -jar $DIRNAME/photo-chaos-organizer-0.1.4.jar
+java -jar $DIRNAME/photo-chaos-organizer-0.1.5-SNAPSHOT.jar
