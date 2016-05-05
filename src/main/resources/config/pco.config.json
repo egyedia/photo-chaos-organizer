@@ -11,10 +11,16 @@
           "${videoFile}"
         ]
       },
-      "VLC": {
+      "VLC on OS X": {
         "executable": "/Applications/VLC 2.1.0.app/Contents/MacOS/VLC",
         "arguments": [
           "--intf macosx",
+          "${videoFile}"
+        ]
+      },
+      "VLC on Ubuntu": {
+        "executable": "/usr/bin/vlc",
+        "arguments": [
           "${videoFile}"
         ]
       }
