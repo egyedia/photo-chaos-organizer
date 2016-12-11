@@ -15,6 +15,13 @@
     <assembly.targetDir>${project.basedir}/dist</assembly.targetDir>
   </properties>
 
+  <scm>
+    <connection>scm:git:git@github.com:egyedia/photo-chaos-organizer-server.git</connection>
+    <developerConnection>scm:git:git@github.com:egyedia/photo-chaos-organizer-server.git</developerConnection>
+    <url>https://github.com/egyedia/photo-chaos-organizer-server</url>
+    <tag>HEAD</tag>
+  </scm>
+
   <dependencies>
     <dependency>
       <groupId>com.dubylon</groupId>
