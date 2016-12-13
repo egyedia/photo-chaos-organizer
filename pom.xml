@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.dubylon</groupId>
     <artifactId>photo-chaos-organizer-parent</artifactId>
-    <version>0.1.8-SNAPSHOT</version>
+    <version>0.1.8</version>
   </parent>
 
   <groupId>com.dubylon</groupId>
@@ -16,6 +16,7 @@
 
   <properties>
     <assembly.targetDir>${project.basedir}/dist</assembly.targetDir>
+    <pco.version>0.1.8</pco.version>
   </properties>
 
   <scm>
@@ -28,12 +29,12 @@
     <dependency>
       <groupId>com.dubylon</groupId>
       <artifactId>photo-chaos-organizer-server</artifactId>
-      <version>${project.version}</version>
+      <version>${pco.version}</version>
     </dependency>
     <dependency>
       <groupId>com.dubylon</groupId>
       <artifactId>photo-chaos-organizer-client</artifactId>
-      <version>${project.version}</version>
+      <version>${pco.version}</version>
     </dependency>
   </dependencies>
 
