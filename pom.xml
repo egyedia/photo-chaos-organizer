@@ -10,7 +10,7 @@
 
   <groupId>com.dubylon</groupId>
   <artifactId>photo-chaos-organizer</artifactId>
-  <version>0.1.8</version>
+  <version>0.1.9-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <properties>
@@ -22,7 +22,7 @@
     <connection>scm:git:git@github.com:egyedia/photo-chaos-organizer.git</connection>
     <developerConnection>scm:git:git@github.com:egyedia/photo-chaos-organizer.git</developerConnection>
     <url>https://github.com/egyedia/photo-chaos-organizer</url>
-    <tag>release-0.1.8</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <dependencies>
