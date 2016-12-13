@@ -2,59 +2,58 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>com.dubylon</groupId>
+    <artifactId>photo-chaos-organizer-parent</artifactId>
+    <version>0.1.8-SNAPSHOT</version>
+  </parent>
+
   <groupId>com.dubylon</groupId>
   <artifactId>photo-chaos-organizer</artifactId>
   <version>0.1.8-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <assembly.targetDir>${project.basedir}/dist</assembly.targetDir>
   </properties>
 
   <scm>
-    <connection>scm:git:git@github.com:egyedia/photo-chaos-organizer-server.git</connection>
-    <developerConnection>scm:git:git@github.com:egyedia/photo-chaos-organizer-server.git</developerConnection>
-    <url>https://github.com/egyedia/photo-chaos-organizer-server</url>
-    <tag>HEAD</tag>
+    <connection>scm:git:git@github.com:egyedia/photo-chaos-organizer.git</connection>
+    <developerConnection>scm:git:git@github.com:egyedia/photo-chaos-organizer.git</developerConnection>
+    <url>https://github.com/egyedia/photo-chaos-organizer</url>
   </scm>
 
   <dependencies>
     <dependency>
       <groupId>com.dubylon</groupId>
       <artifactId>photo-chaos-organizer-server</artifactId>
-      <version>0.1.8-SNAPSHOT</version>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.dubylon</groupId>
+      <artifactId>photo-chaos-organizer-client</artifactId>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
-
-  <modules>
-    <module>../photo-chaos-organizer-server</module>
-  </modules>
 
   <build>
 
     <plugins>
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
-        <version>2.6</version>
         <configuration>
           <archive>
             <manifest>
-              <addClasspath>true</addClasspath>
               <mainClass>com.dubylon.photochaos.PhotoChaosOrganizerLauncher</mainClass>
             </manifest>
           </archive>
-          <descriptors>
-            <descriptor>src/assembly/bin.xml</descriptor>
-          </descriptors>
+          <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+          </descriptorRefs>
           <appendAssemblyId>false</appendAssemblyId>
-          <finalName>photo-chaos-organizer-${project.version}</finalName>
-          <appendAssemblyId>false</appendAssemblyId>
-          <workDirectory>${project.build.directory}/assembly/work</workDirectory>
           <outputDirectory>${assembly.targetDir}</outputDirectory>
         </configuration>
         <executions>
@@ -71,7 +70,6 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-resources-plugin</artifactId>
-        <version>2.7</version>
         <executions>
           <execution>
             <id>copy-resources1</id>
