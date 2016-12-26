@@ -1,3 +1,3 @@
 # Photo Chaos Organizer
 
-See the project page at: [http://http://photo-chaos-organizer.dubylon.com/](http://http://photo-chaos-organizer.dubylon.com/)
+See the project page at: [http://photo-chaos-organizer.dubylon.com/](http://photo-chaos-organizer.dubylon.com/)
