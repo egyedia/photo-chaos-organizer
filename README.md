@@ -1,3 +1,3 @@
 # Photo Chaos Organizer
 
-See the project page at: [http://egyedia.github.io/photo-chaos-organizer/](http://egyedia.github.io/photo-chaos-organizer/)
+See the project page at: [http://http://photo-chaos-organizer.dubylon.com/](http://http://photo-chaos-organizer.dubylon.com/)
